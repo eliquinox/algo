@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/**"
+            ],
+            "defines": [],
+            "compilerPath": "/home/eliquinox/Xilinx-2021/Vitis/2021.1/gnu/microblaze/lin/bin/mb-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

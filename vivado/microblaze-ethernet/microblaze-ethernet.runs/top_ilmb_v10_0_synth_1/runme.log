@@ -1,0 +1,217 @@
+
+*** Running vivado
+    with args -log top_ilmb_v10_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_ilmb_v10_0.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source top_ilmb_v10_0.tcl -notrace
+Command: synth_design -top top_ilmb_v10_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1654065
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 26847 ; free virtual = 41591
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_ilmb_v10_0' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_ilmb_v10_0/synth/top_ilmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:92' bound to instance 'U0' of component 'lmb_v10' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_ilmb_v10_0/synth/top_ilmb_v10_0.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960' bound to instance 'POR_FF_I' of component 'FDS' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:171]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (1#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (2#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/c2ed/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-256] done synthesizing module 'top_ilmb_v10_0' (3#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_ilmb_v10_0/synth/top_ilmb_v10_0.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 27559 ; free virtual = 42303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 27607 ; free virtual = 42351
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 27607 ; free virtual = 42351
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 27579 ; free virtual = 42324
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_ilmb_v10_0/top_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_ilmb_v10_0/top_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_v10_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_v10_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 27586 ; free virtual = 42335
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 27581 ; free virtual = 42329
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26808 ; free virtual = 41558
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26807 ; free virtual = 41557
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_v10_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26808 ; free virtual = 41559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26754 ; free virtual = 41505
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 24991 ; free virtual = 39745
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26019 ; free virtual = 40786
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26017 ; free virtual = 40783
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26001 ; free virtual = 40768
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26124 ; free virtual = 40897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26123 ; free virtual = 40897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26123 ; free virtual = 40897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26122 ; free virtual = 40896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26122 ; free virtual = 40895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26121 ; free virtual = 40895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |FDS  |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26122 ; free virtual = 40896
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26109 ; free virtual = 40882
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26109 ; free virtual = 40882
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26106 ; free virtual = 40880
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26157 ; free virtual = 40934
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Synth Design complete, checksum: 8dd990a9
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2614.250 ; gain = 64.031 ; free physical = 26311 ; free virtual = 41091
+INFO: [Common 17-1381] The checkpoint '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_v10_0_synth_1/top_ilmb_v10_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP top_ilmb_v10_0, cache-ID = 7a8472b637646310
+INFO: [Common 17-1381] The checkpoint '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_v10_0_synth_1/top_ilmb_v10_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_ilmb_v10_0_utilization_synth.rpt -pb top_ilmb_v10_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 17 15:32:51 2022...

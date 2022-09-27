@@ -1,0 +1,253 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Sep 17 15:32:23 2022
+# Process ID: 1653476
+# Current directory: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1
+# Command line: vivado -log top_dlmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_dlmb_bram_if_cntlr_0.tcl
+# Log file: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/top_dlmb_bram_if_cntlr_0.vds
+# Journal file: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_dlmb_bram_if_cntlr_0.tcl -notrace
+Command: synth_design -top top_dlmb_bram_if_cntlr_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1653933
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29240 ; free virtual = 43983
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_dlmb_bram_if_cntlr_0' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_dlmb_bram_if_cntlr_0/synth/top_dlmb_bram_if_cntlr_0.vhd:84]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000000111111111111111 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_CE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_UE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_STATUS_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_REGISTER bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 1 - type: integer 
+	Parameter C_CE_COUNTER_WIDTH bound to: 0 - type: integer 
+	Parameter C_WRITE_ACCESS bound to: 2 - type: integer 
+	Parameter C_BRAM_AWIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3134' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_dlmb_bram_if_cntlr_0/synth/top_dlmb_bram_if_cntlr_0.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3259]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2527' bound to instance 'lmb_mux_I' of component 'lmb_mux' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3511]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2614]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2110' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2681]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2125]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (1#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2125]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (2#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2614]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (3#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/0b98/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3259]
+INFO: [Synth 8-256] done synthesizing module 'top_dlmb_bram_if_cntlr_0' (4#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_dlmb_bram_if_cntlr_0/synth/top_dlmb_bram_if_cntlr_0.vhd:84]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 28528 ; free virtual = 43272
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29219 ; free virtual = 43963
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29218 ; free virtual = 43962
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29179 ; free virtual = 43923
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_dlmb_bram_if_cntlr_0/top_dlmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_dlmb_bram_if_cntlr_0/top_dlmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26776 ; free virtual = 41520
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26754 ; free virtual = 41498
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 27851 ; free virtual = 42595
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 27850 ; free virtual = 42594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 27848 ; free virtual = 42592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 27751 ; free virtual = 42496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 27589 ; free virtual = 42337
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 25451 ; free virtual = 40218
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 25449 ; free virtual = 40215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 25436 ; free virtual = 40203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26101 ; free virtual = 40867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26099 ; free virtual = 40865
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26094 ; free virtual = 40860
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26094 ; free virtual = 40860
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26090 ; free virtual = 40856
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26086 ; free virtual = 40852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |LUT3 |     1|
+|3     |LUT4 |     4|
+|4     |FDRE |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26086 ; free virtual = 40853
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26140 ; free virtual = 40907
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2614.250 ; gain = 63.957 ; free physical = 26140 ; free virtual = 40907
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 26188 ; free virtual = 40955
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2614.250 ; gain = 0.000 ; free physical = 25981 ; free virtual = 40748
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 7131dd39
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 2614.250 ; gain = 64.031 ; free physical = 26135 ; free virtual = 40902
+INFO: [Common 17-1381] The checkpoint '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/top_dlmb_bram_if_cntlr_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP top_dlmb_bram_if_cntlr_0, cache-ID = 0304f55f9f8efbf4
+INFO: [Common 17-1381] The checkpoint '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1/top_dlmb_bram_if_cntlr_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_dlmb_bram_if_cntlr_0_utilization_synth.rpt -pb top_dlmb_bram_if_cntlr_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 17 15:32:49 2022...

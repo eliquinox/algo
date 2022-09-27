@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="top_auto_us_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_us_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_mdm_1_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_microblaze_0_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_pc_4_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_pc_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_clk_wiz_0_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_ds_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_us_2_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_us_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_lmb_bram_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_pc_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_dlmb_bram_if_cntlr_0_synth_1"/>
+	</Run>
+	<Run Id="top_ilmb_v10_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_dlmb_v10_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="top_auto_ds_1_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_ds_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_microblaze_0_axi_intc_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_axi_uartlite_0_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_rst_mig_7series_0_83M_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_rst_mig_7series_0_83M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_mig_7series_0_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_mig_7series_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_xbar_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_us_1_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_us_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_us_0_synth_1"/>
+	</Run>
+	<Run Id="top_axi_ethernetlite_0_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_auto_ds_3_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_ds_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_ds_0_synth_1"/>
+	</Run>
+	<Run Id="top_auto_pc_3_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_pc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="top_auto_pc_2_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="top_auto_ds_2_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_ds_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="top_auto_ds_0_synth_1"/>
+	</Run>
+	<Run Id="top_auto_pc_1_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_axi_timer_0_0_synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_timer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="top_auto_us_0_synth_1"/>
+		<Parent Id="top_mdm_1_0_synth_1"/>
+		<Parent Id="top_microblaze_0_0_synth_1"/>
+		<Parent Id="top_auto_pc_4_synth_1"/>
+		<Parent Id="top_clk_wiz_0_0_synth_1"/>
+		<Parent Id="top_auto_ds_0_synth_1"/>
+		<Parent Id="top_auto_us_2_synth_1"/>
+		<Parent Id="top_lmb_bram_0_synth_1"/>
+		<Parent Id="top_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="top_auto_pc_0_synth_1"/>
+		<Parent Id="top_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="top_ilmb_v10_0_synth_1"/>
+		<Parent Id="top_dlmb_v10_0_synth_1"/>
+		<Parent Id="top_auto_ds_1_synth_1"/>
+		<Parent Id="top_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="top_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="top_rst_mig_7series_0_83M_0_synth_1"/>
+		<Parent Id="top_mig_7series_0_0_synth_1"/>
+		<Parent Id="top_xbar_0_synth_1"/>
+		<Parent Id="top_auto_us_1_synth_1"/>
+		<Parent Id="top_axi_ethernetlite_0_0_synth_1"/>
+		<Parent Id="top_auto_ds_3_synth_1"/>
+		<Parent Id="top_auto_pc_3_synth_1"/>
+		<Parent Id="top_auto_pc_2_synth_1"/>
+		<Parent Id="top_auto_ds_2_synth_1"/>
+		<Parent Id="top_auto_pc_1_synth_1"/>
+		<Parent Id="top_axi_timer_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="top_auto_us_0_synth_1"/>
+		<Parent Id="top_mdm_1_0_synth_1"/>
+		<Parent Id="top_microblaze_0_0_synth_1"/>
+		<Parent Id="top_auto_pc_4_synth_1"/>
+		<Parent Id="top_clk_wiz_0_0_synth_1"/>
+		<Parent Id="top_auto_ds_0_synth_1"/>
+		<Parent Id="top_auto_us_2_synth_1"/>
+		<Parent Id="top_lmb_bram_0_synth_1"/>
+		<Parent Id="top_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="top_auto_pc_0_synth_1"/>
+		<Parent Id="top_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="top_ilmb_v10_0_synth_1"/>
+		<Parent Id="top_dlmb_v10_0_synth_1"/>
+		<Parent Id="top_auto_ds_1_synth_1"/>
+		<Parent Id="top_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="top_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="top_rst_mig_7series_0_83M_0_synth_1"/>
+		<Parent Id="top_mig_7series_0_0_synth_1"/>
+		<Parent Id="top_xbar_0_synth_1"/>
+		<Parent Id="top_auto_us_1_synth_1"/>
+		<Parent Id="top_axi_ethernetlite_0_0_synth_1"/>
+		<Parent Id="top_auto_ds_3_synth_1"/>
+		<Parent Id="top_auto_pc_3_synth_1"/>
+		<Parent Id="top_auto_pc_2_synth_1"/>
+		<Parent Id="top_auto_ds_2_synth_1"/>
+		<Parent Id="top_auto_pc_1_synth_1"/>
+		<Parent Id="top_axi_timer_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

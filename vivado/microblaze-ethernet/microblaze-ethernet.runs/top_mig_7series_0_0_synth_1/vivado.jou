@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Sep 17 15:32:51 2022
+# Process ID: 1654592
+# Current directory: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_mig_7series_0_0_synth_1
+# Command line: vivado -log top_mig_7series_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_mig_7series_0_0.tcl
+# Log file: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_mig_7series_0_0_synth_1/top_mig_7series_0_0.vds
+# Journal file: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_mig_7series_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_mig_7series_0_0.tcl -notrace

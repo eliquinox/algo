@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "tcp.h": "c",
+        "platform_config.h": "c",
+        "platform.h": "c"
+    }
+}

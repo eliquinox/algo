@@ -1,0 +1,901 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Sep 17 15:33:01 2022
+# Process ID: 1655145
+# Current directory: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1
+# Command line: vivado -log top_axi_ethernetlite_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_axi_ethernetlite_0_0.tcl
+# Log file: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/top_axi_ethernetlite_0_0.vds
+# Journal file: /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_axi_ethernetlite_0_0.tcl -notrace
+Command: synth_design -top top_axi_ethernetlite_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1655356
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 28465 ; free virtual = 43243
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_axi_ethernetlite_0_0' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/synth/top_axi_ethernetlite_0_0.vhd:98]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_SELECT_XPM bound to: 1 - type: integer 
+	Parameter C_INSTANCE bound to: axi_ethernetlite_inst - type: string 
+	Parameter C_S_AXI_ACLK_PERIOD_PS bound to: 12000 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_PROTOCOL bound to: AXI4LITE - type: string 
+	Parameter C_INCLUDE_MDIO bound to: 1 - type: integer 
+	Parameter C_INCLUDE_INTERNAL_LOOPBACK bound to: 0 - type: integer 
+	Parameter C_INCLUDE_GLOBAL_BUFFERS bound to: 1 - type: integer 
+	Parameter C_DUPLEX bound to: 1 - type: integer 
+	Parameter C_TX_PING_PONG bound to: 1 - type: integer 
+	Parameter C_RX_PING_PONG bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'axi_ethernetlite' declared at '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13414' bound to instance 'U0' of component 'axi_ethernetlite' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/synth/top_axi_ethernetlite_0_0.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'axi_ethernetlite' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13523]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (1#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'IBUF' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51657' bound to instance 'TX_IBUF_INST' of component 'IBUF' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13909]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51657]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (2#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51657]
+INFO: [Synth 8-3491] module 'IBUF' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51657' bound to instance 'RX_IBUF_INST' of component 'IBUF' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13915]
+INFO: [Synth 8-3491] module 'BUFG' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083' bound to instance 'CLOCK_BUFG_TX' of component 'BUFG' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13923]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-3491] module 'BUFG' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083' bound to instance 'CLOCK_BUFG_RX' of component 'BUFG' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13932]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (3#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (3#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'RX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14021]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (4#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'TX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14029]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'RX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14021]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'TX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14029]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'RX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14021]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'TX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14029]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'RX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14021]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'TX_FF_I' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14029]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'DVD_FF' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14048]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'RER_FF' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14056]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'TEN_FF' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:14064]
+INFO: [Synth 8-638] synthesizing module 'xemac' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:11005]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'IP2INTC_IRPT_REG_I' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:11183]
+INFO: [Synth 8-6157] synthesizing module 'FDR' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824]
+INFO: [Synth 8-6155] done synthesizing module 'FDR' (5#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824]
+INFO: [Synth 8-638] synthesizing module 'axi_ethernetlite_v3_0_23_emac' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:10466]
+INFO: [Synth 8-638] synthesizing module 'receive' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8569]
+INFO: [Synth 8-638] synthesizing module 'rx_statemachine' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4291]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'crcokdelay' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4414]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960' bound to instance 'state0a' of component 'FDS' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4467]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (6#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state1a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4483]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state2a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4508]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state3a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4525]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state4a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4549]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state17a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4758]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state18a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4783]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state20a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4800]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state21a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4824]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'state22a' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4850]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'preamble' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5099]
+INFO: [Synth 8-256] done synthesizing module 'rx_statemachine' (7#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4291]
+INFO: [Synth 8-638] synthesizing module 'rx_intrfce' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5306]
+INFO: [Synth 8-638] synthesizing module 'async_fifo_fg' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:255]
+	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
+	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
+	Parameter RELATED_CLOCKS bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter READ_MODE bound to: std - type: string 
+	Parameter FIFO_READ_LATENCY bound to: 1 - type: integer 
+	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
+	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
+	Parameter READ_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter CDC_SYNC_STAGES bound to: 2 - type: integer 
+	Parameter WR_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
+	Parameter RD_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_EMPTY_THRESH bound to: 10 - type: integer 
+	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2146' bound to instance 'xpm_fifo_async_inst' of component 'xpm_fifo_async' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:1932]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2146]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (8#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized0' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (8#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value.   [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:490]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (9#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (10#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1884]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec' (11#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1884]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized0' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized0' (11#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec__parameterized0' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1884]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec__parameterized0' (11#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1884]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_rst' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1618]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (12#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (13#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1618]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_bit' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1906]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (14#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1906]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized1' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (14#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (14#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1858]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (15#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async' (16#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2146]
+INFO: [Synth 8-256] done synthesizing module 'async_fifo_fg' (17#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd:255]
+INFO: [Synth 8-256] done synthesizing module 'rx_intrfce' (18#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5306]
+INFO: [Synth 8-638] synthesizing module 'crcgenrx' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6895]
+INFO: [Synth 8-256] done synthesizing module 'crcgenrx' (19#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6895]
+INFO: [Synth 8-256] done synthesizing module 'receive' (20#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8569]
+INFO: [Synth 8-638] synthesizing module 'transmit' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:7693]
+INFO: [Synth 8-638] synthesizing module 'crcgentx' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6549]
+INFO: [Synth 8-638] synthesizing module 'crcnibshiftreg' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1918]
+INFO: [Synth 8-256] done synthesizing module 'crcnibshiftreg' (21#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1918]
+INFO: [Synth 8-256] done synthesizing module 'crcgentx' (22#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6549]
+INFO: [Synth 8-638] synthesizing module 'tx_intrfce' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:3931]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'pipeIt' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4042]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized2' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized2' (22#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'tx_intrfce' (23#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:3931]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:503]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY' (24#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:599]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (25#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:503]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-6157] synthesizing module 'MULT_AND' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905]
+INFO: [Synth 8-6155] done synthesizing module 'MULT_AND' (26#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-6157] synthesizing module 'XORCY' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299]
+INFO: [Synth 8-6155] done synthesizing module 'XORCY' (27#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62905' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:281]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:62916' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:291]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:105299' bound to instance 'XORCY_i1' of component 'XORCY' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:302]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837' bound to instance 'FDRE_i1' of component 'FDRE' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:318]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg' (28#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'tx_statemachine' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2440]
+INFO: [Synth 8-638] synthesizing module 'cntr5bit' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2119]
+INFO: [Synth 8-256] done synthesizing module 'cntr5bit' (29#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2119]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960' bound to instance 'STATE0A' of component 'FDS' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2769]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE5A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2801]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE6A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2816]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE7A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2834]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE8A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2852]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE9A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2869]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE10A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2886]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE11A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2909]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE12A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2925]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE13A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2941]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE14A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2964]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE15A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2980]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27824' bound to instance 'STATE16A' of component 'FDR' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:3000]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'tx_statemachine' (30#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2440]
+INFO: [Synth 8-638] synthesizing module 'deferral' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6251]
+INFO: [Synth 8-638] synthesizing module 'defer_state' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1651]
+INFO: [Synth 8-226] default block is never used [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-256] done synthesizing module 'defer_state' (31#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1651]
+INFO: [Synth 8-256] done synthesizing module 'deferral' (32#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6251]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized0' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized0' (32#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized1' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-6157] synthesizing module 'FDSE' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27973]
+INFO: [Synth 8-6155] done synthesizing module 'FDSE' (33#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27973]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized1' (33#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:161]
+INFO: [Synth 8-256] done synthesizing module 'transmit' (34#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:7693]
+INFO: [Synth 8-638] synthesizing module 'MacAddrRAM' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8887]
+INFO: [Synth 8-638] synthesizing module 'ram16x4' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5614]
+INFO: [Synth 8-6157] synthesizing module 'RAM16X1S' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:92880]
+INFO: [Synth 8-6155] done synthesizing module 'RAM16X1S' (35#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/scripts/rt/data/unisim_comp.v:92880]
+INFO: [Synth 8-256] done synthesizing module 'ram16x4' (36#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5614]
+INFO: [Synth 8-256] done synthesizing module 'MacAddrRAM' (37#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8887]
+INFO: [Synth 8-256] done synthesizing module 'axi_ethernetlite_v3_0_23_emac' (38#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:10466]
+INFO: [Synth 8-638] synthesizing module 'emac_dpram' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:9677]
+	Parameter MEMORY_SIZE bound to: 8192 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: blockram - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 11 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: read_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 9 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: read_first - type: string 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_tdpram' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8905]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's.   [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:492]
+Info : Asymmetric Ram write pattern identified
+Info : Asymmetric Ram read pattern identified
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (38#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_tdpram' (39#1) [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8905]
+	Parameter MEMORY_SIZE bound to: 8192 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: blockram - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 11 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: read_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 9 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: read_first - type: string 
+INFO: [Synth 8-256] done synthesizing module 'emac_dpram' (40#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:9677]
+INFO: [Synth 8-638] synthesizing module 'mdio_if' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:9106]
+INFO: [Synth 8-256] done synthesizing module 'mdio_if' (41#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:9106]
+INFO: [Synth 8-256] done synthesizing module 'xemac' (42#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:11005]
+INFO: [Synth 8-638] synthesizing module 'axi_interface' [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:12495]
+INFO: [Synth 8-256] done synthesizing module 'axi_interface' (43#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:12495]
+INFO: [Synth 8-256] done synthesizing module 'axi_ethernetlite' (44#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ipshared/18d3/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13523]
+INFO: [Synth 8-256] done synthesizing module 'top_axi_ethernetlite_0_0' (45#1) [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/synth/top_axi_ethernetlite_0_0.vhd:98]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 28342 ; free virtual = 43125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29791 ; free virtual = 44597
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29791 ; free virtual = 44597
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2550.293 ; gain = 0.000 ; free physical = 29765 ; free virtual = 44575
+INFO: [Netlist 29-17] Analyzing 225 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.gen/sources_1/bd/top/ip/top_axi_ethernetlite_0_0/top_axi_ethernetlite_0_0_clocks.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/eliquinox/Xilinx-2021/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 22 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2617.219 ; gain = 0.000 ; free physical = 29828 ; free virtual = 44617
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 161 instances were transformed.
+  FDR => FDRE: 127 instances
+  FDS => FDSE: 2 instances
+  MULT_AND => LUT2: 28 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2617.219 ; gain = 0.000 ; free physical = 29822 ; free virtual = 44611
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 29202 ; free virtual = 43997
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 29195 ; free virtual = 43990
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.rrst_wr_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.rrst_wr_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.wrst_rd_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.wrst_rd_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/TX_PING/\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/RX_PING/\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\TX_PONG_GEN.TX_PONG_I /\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\RX_PONG_GEN.RX_PONG_I /\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/TX_PING/\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/RX_PING/\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\TX_PONG_GEN.TX_PONG_I /\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\RX_PONG_GEN.RX_PONG_I /\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_col. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_crs. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_dv. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/XEMAC_I/mdio_clk_i. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/XEMAC_I/\MDIO_GEN.MDIO_IF_I /PHY_MDIO_T. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for s_axi_aresetn. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_rx_clk. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_rx_data[0]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_rx_er. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_tx_clk. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[0]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[1]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[2]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[3]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_en. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 29137 ; free virtual = 43932
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rdDestAddrNib_D_t_q_reg' in module 'rx_statemachine'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'thisState_reg' in module 'defer_state'
+INFO: [Synth 8-802] inferred FSM for state register 'mdio_state_reg' in module 'mdio_if'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE6 |                    0000000000001 |                             0000
+                 iSTATE5 |                    0000000000010 |                             0001
+                 iSTATE1 |                    0000000000100 |                             0010
+                  iSTATE |                    0000000001000 |                             0011
+                 iSTATE0 |                    0000000010000 |                             0100
+                iSTATE11 |                    0000000100000 |                             0101
+                iSTATE10 |                    0000001000000 |                             0110
+                 iSTATE8 |                    0000010000000 |                             0111
+                 iSTATE9 |                    0000100000000 |                             1000
+                 iSTATE7 |                    0001000000000 |                             1001
+                 iSTATE4 |                    0010000000000 |                             1010
+                 iSTATE2 |                    0100000000000 |                             1011
+                 iSTATE3 |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rdDestAddrNib_D_t_q_reg' using encoding 'one-hot' in module 'rx_statemachine'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                loadcntr |                               01 |                               00
+           startifgp1cnt |                               11 |                               01
+           startifgp2cnt |                               10 |                               10
+                 cntdone |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'thisState_reg' using encoding 'sequential' in module 'defer_state'
+INFO: [Synth 8-3971] The signal "xpm_memory_base__parameterized0:/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                    0000000000001 |                             0000
+                preamble |                    0000000000010 |                             0001
+                     st1 |                    0000000000100 |                             0010
+                     st2 |                    0000000001000 |                             0011
+                     op1 |                    0000000010000 |                             0100
+                     op2 |                    0000000100000 |                             0101
+                phy_addr |                    0000001000000 |                             1000
+                reg_addr |                    0000010000000 |                             1001
+                     ta1 |                    0000100000000 |                             0110
+                     ta2 |                    0001000000000 |                             0111
+                   write |                    0010000000000 |                             1010
+                    read |                    0100000000000 |                             1011
+                    done |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mdio_state_reg' using encoding 'one-hot' in module 'mdio_if'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 27162 ; free virtual = 41959
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   4 Input    5 Bit       Adders := 4     
+	   2 Input    5 Bit       Adders := 5     
+	   3 Input    5 Bit       Adders := 4     
+	   4 Input    4 Bit       Adders := 10    
+	   3 Input    4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      5 Bit         XORs := 4     
+	   2 Input      4 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 88    
+	   3 Input      1 Bit         XORs := 19    
+	   4 Input      1 Bit         XORs := 12    
++---Registers : 
+	               32 Bit    Registers := 5     
+	               16 Bit    Registers := 12    
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 7     
+	                5 Bit    Registers := 31    
+	                4 Bit    Registers := 39    
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 110   
++---RAMs : 
+	               8K Bit	(2048 X 4 bit)          RAMs := 8     
+	               96 Bit	(16 X 6 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	  10 Input   32 Bit        Muxes := 1     
+	  13 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	  13 Input   13 Bit        Muxes := 2     
+	   2 Input   13 Bit        Muxes := 27    
+	   2 Input   12 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 3     
+	   5 Input    6 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 20    
+	  13 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 9     
+	   3 Input    4 Bit        Muxes := 5     
+	  13 Input    4 Bit        Muxes := 2     
+	  11 Input    4 Bit        Muxes := 1     
+	  12 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 12    
+	   3 Input    2 Bit        Muxes := 1     
+	   5 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 70    
+	   6 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 7     
+	  13 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28886 ; free virtual = 43713
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++---------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                      | RTL Object                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
++---------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28560 ; free virtual = 43394
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28526 ; free virtual = 43363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++---------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                      | RTL Object                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_base__parameterized0: | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
++---------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28473 ; free virtual = 43311
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28367 ; free virtual = 43205
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28367 ; free virtual = 43205
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28366 ; free virtual = 43204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28366 ; free virtual = 43204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28366 ; free virtual = 43204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28366 ; free virtual = 43204
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |     9|
+|3     |LUT1     |    31|
+|4     |LUT2     |   130|
+|5     |LUT3     |   116|
+|6     |LUT4     |   194|
+|7     |LUT5     |   169|
+|8     |LUT6     |   240|
+|9     |MULT_AND |    17|
+|10    |MUXCY    |    25|
+|11    |MUXF7    |     2|
+|12    |MUXF8    |     1|
+|13    |RAM16X1S |     4|
+|14    |RAM32M   |     2|
+|15    |RAMB18E1 |     8|
+|16    |XORCY    |    20|
+|17    |FDR      |    81|
+|18    |FDRE     |   652|
+|19    |FDS      |     2|
+|20    |FDSE     |    75|
+|21    |IBUF     |     2|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28358 ; free virtual = 43195
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2617.219 ; gain = 0.000 ; free physical = 28412 ; free virtual = 43250
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2617.219 ; gain = 66.926 ; free physical = 28412 ; free virtual = 43250
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2617.219 ; gain = 0.000 ; free physical = 28503 ; free virtual = 43340
+INFO: [Netlist 29-17] Analyzing 171 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2617.219 ; gain = 0.000 ; free physical = 28437 ; free virtual = 43275
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 115 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 9 instances
+  FDR => FDRE: 81 instances
+  FDS => FDSE: 2 instances
+  MULT_AND => LUT2: 17 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+
+Synth Design complete, checksum: 421020bd
+INFO: [Common 17-83] Releasing license: Synthesis
+310 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 2617.219 ; gain = 67.000 ; free physical = 28577 ; free virtual = 43414
+INFO: [Common 17-1381] The checkpoint '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/top_axi_ethernetlite_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP top_axi_ethernetlite_0_0, cache-ID = c67ef3fa94d686a3
+INFO: [Coretcl 2-1174] Renamed 99 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/eliquinox/code/fpga/microblaze-ethernet/microblaze-ethernet.runs/top_axi_ethernetlite_0_0_synth_1/top_axi_ethernetlite_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_axi_ethernetlite_0_0_utilization_synth.rpt -pb top_axi_ethernetlite_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 17 15:33:31 2022...

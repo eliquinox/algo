@@ -1,0 +1,2246 @@
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened new HwDB with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-09-17.15:44:21::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet"
+		}]
+}
+TRACE::2022-09-17.15:44:21::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-09-17.15:44:21::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-09-17.15:44:21::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet"
+		}]
+}
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:21::SCWDomain::checking for install qemu data   : 
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:21::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:44:21::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::mss does not exists at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::Creating sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::Adding the swdes entry, created swdb /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::updating the scw layer changes to swdes at   /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::Writing mss at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:21::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-17.15:44:21::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-09-17.15:44:21::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-09-17.15:44:21::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-17.15:44:21::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:44:22::SCWMssOS::Writing the mss file completed /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f589eac0360928e1997e5c8ccf369123",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-09-17.15:44:22::SCWPlatform::Started generating the artifacts platform microblaze-ethernet
+TRACE::2022-09-17.15:44:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-09-17.15:44:22::SCWPlatform::Started generating the artifacts for system configuration microblaze-ethernet
+LOG::2022-09-17.15:44:22::SCWSystem::Checking the domain standalone_domain
+LOG::2022-09-17.15:44:22::SCWSystem::Not a boot domain 
+LOG::2022-09-17.15:44:22::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-09-17.15:44:22::SCWDomain::Generating domain artifcats
+TRACE::2022-09-17.15:44:22::SCWMssOS::Generating standalone artifcats
+TRACE::2022-09-17.15:44:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-17.15:44:22::SCWMssOS::Mss edits present, copying mssfile into export location /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-09-17.15:44:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-09-17.15:44:22::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-09-17.15:44:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-09-17.15:44:22::SCWMssOS::Copying to export directory.
+TRACE::2022-09-17.15:44:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-09-17.15:44:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-09-17.15:44:22::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-09-17.15:44:22::SCWSystem::Completed Processing the sysconfig microblaze-ethernet
+LOG::2022-09-17.15:44:22::SCWPlatform::Completed generating the artifacts for system configuration microblaze-ethernet
+TRACE::2022-09-17.15:44:22::SCWPlatform::Started preparing the platform 
+TRACE::2022-09-17.15:44:22::SCWSystem::Writing the bif file for system config microblaze-ethernet
+TRACE::2022-09-17.15:44:22::SCWSystem::dir created 
+TRACE::2022-09-17.15:44:22::SCWSystem::Writing the bif 
+TRACE::2022-09-17.15:44:22::SCWPlatform::Started writing the spfm file 
+TRACE::2022-09-17.15:44:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-09-17.15:44:22::SCWPlatform::Completed generating the platform
+TRACE::2022-09-17.15:44:22::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f589eac0360928e1997e5c8ccf369123",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-09-17.15:44:22::SCWPlatform::updated the xpfm file.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f589eac0360928e1997e5c8ccf369123",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f589eac0360928e1997e5c8ccf369123",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-09-17.15:44:22::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f589eac0360928e1997e5c8ccf369123",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-09-17.15:44:22::SCWPlatform::Clearing the existing platform
+TRACE::2022-09-17.15:44:22::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-09-17.15:44:22::SCWMssOS::Removing the swdes entry for  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWSystem::Clearing the domains completed.
+TRACE::2022-09-17.15:44:22::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform location is /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Removing the HwDB with name /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened new HwDB with name top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWReader::Active system found as  microblaze-ethernet
+TRACE::2022-09-17.15:44:22::SCWReader::Handling sysconfig microblaze-ethernet
+TRACE::2022-09-17.15:44:22::SCWDomain::checking for install qemu data   : 
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:44:22::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:44:22::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-17.15:44:22::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:44:22::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:22::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-09-17.15:44:22::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:22::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:22::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:22::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:22::SCWReader::No isolation master present  
+TRACE::2022-09-17.15:44:29::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:29::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:29::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:29::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:29::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:29::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::In reload Mss file.
+TRACE::2022-09-17.15:44:29::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:29::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:29::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:29::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:29::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:44:29::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:44:29::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-17.15:44:29::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:44:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:44:29::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:44:29::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:29::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:29::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:29::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:29::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:29::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:29::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:29::SCWMssOS::Removing the swdes entry for  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:31::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:31::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:31::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:31::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:31::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:31::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:31::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:31::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:31::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:31::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:44:31::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:31::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:31::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:31::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:44:31::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-17.15:44:31::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:42::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:42::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:42::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:42::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:42::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:42::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:42::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:42::SCWMssOS::Adding Library:  lwip211:1.5
+TRACE::2022-09-17.15:44:42::SCWMssOS::Added Library:  lwip211
+TRACE::2022-09-17.15:44:42::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:44:42::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:44:42::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:44:42::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:44:42::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:44:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:44:42::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:44:42::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:44:42::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:45:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:45:03::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"f589eac0360928e1997e5c8ccf369123",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.5"],
+					"libOptions":	{
+						"lwip211":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-09-17.15:45:03::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:45:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:45:03::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Removing the swdes entry for  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::In reload Mss file.
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:45:03::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:45:03::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-17.15:45:03::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS:: library already available in sw design:  lwip211:1.5
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:45:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:45:03::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:03::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Removing the swdes entry for  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:03::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:03::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:45:03::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:45:03::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-17.15:45:03::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:03::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-17.15:45:03::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2022-09-17.15:45:18::SCWPlatform::Started generating the artifacts platform microblaze-ethernet
+TRACE::2022-09-17.15:45:18::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-09-17.15:45:18::SCWPlatform::Started generating the artifacts for system configuration microblaze-ethernet
+LOG::2022-09-17.15:45:18::SCWSystem::Checking the domain standalone_domain
+LOG::2022-09-17.15:45:18::SCWSystem::Not a boot domain 
+LOG::2022-09-17.15:45:18::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-09-17.15:45:18::SCWDomain::Generating domain artifcats
+TRACE::2022-09-17.15:45:18::SCWMssOS::Generating standalone artifcats
+TRACE::2022-09-17.15:45:18::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-09-17.15:45:18::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:18::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:18::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:18::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:18::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:18::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:18::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:18::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:18::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:18::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-17.15:45:18::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:18::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:18::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:18::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-17.15:45:18::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-17.15:45:18::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:18::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-17.15:45:18::SCWMssOS::Mss edits present, copying mssfile into export location /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:18::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-09-17.15:45:18::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-09-17.15:45:18::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-09-17.15:45:18::SCWMssOS::doing bsp build ... 
+TRACE::2022-09-17.15:45:18::SCWMssOS::System Command Ran  cd  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2022-09-17.15:45:18::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-17.15:45:18::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-17.15:45:18::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-17.15:45:18::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-17.15:45:18::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-09-17.15:45:18::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-09-17.15:45:18::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-17.15:45:18::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-17.15:45:18::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-09-17.15:45:18::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-09-17.15:45:18::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-17.15:45:18::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-17.15:45:18::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-17.15:45:18::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-17.15:45:18::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-17.15:45:18::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-17.15:45:18::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Running Make libs in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-17.15:45:18::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-17.15:45:18::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:18::SCWMssOS::Compiling lwip src and adapter files
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-17.15:45:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-17.15:45:21::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-17.15:45:21::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-17.15:45:21::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-09-17.15:45:21::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-09-17.15:45:21::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-17.15:45:21::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-17.15:45:21::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-09-17.15:45:21::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-09-17.15:45:21::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-17.15:45:21::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-17.15:45:21::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-17.15:45:21::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-17.15:45:21::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-17.15:45:21::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-17.15:45:21::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-09-17.15:45:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-09-17.15:45:21::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-09-17.15:45:21::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-09-17.15:45:21::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-17.15:45:21::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-17.15:45:21::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-09-17.15:45:21::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-09-17.15:45:21::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-17.15:45:21::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-17.15:45:21::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-17.15:45:21::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-17.15:45:21::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-09-17.15:45:21::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-09-17.15:45:21::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xintc_options.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/errno.
+TRACE::2022-09-17.15:45:21::SCWMssOS::o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_invalidate_ic
+TRACE::2022-09-17.15:45:21::SCWMssOS::ache_range.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xtmrctr_g.o microbla
+TRACE::2022-09-17.15:45:21::SCWMssOS::ze_0/lib/xio.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xemaclite.o microblaze_0/lib/microblaze_selftes
+TRACE::2022-09-17.15:45:21::SCWMssOS::t.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_util.o microblaze_0/lib/x
+TRACE::2022-09-17.15:45:21::SCWMssOS::uartlite_selftest.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_sinit.o micro
+TRACE::2022-09-17.15:45:21::SCWMssOS::blaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_interrupts_g.o mi
+TRACE::2022-09-17.15:45:21::SCWMssOS::croblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xintc_self
+TRACE::2022-09-17.15:45:21::SCWMssOS::test.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xil_printf.o microbl
+TRACE::2022-09-17.15:45:21::SCWMssOS::aze_0/lib/xintc_intr.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cache_ext_range.o micr
+TRACE::2022-09-17.15:45:21::SCWMssOS::oblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xemaclite_l.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_scrub.
+TRACE::2022-09-17.15:45:21::SCWMssOS::o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_interrupt_handler.o m
+TRACE::2022-09-17.15:45:21::SCWMssOS::icroblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/microblaze_invalidate_dcache
+TRACE::2022-09-17.15:45:21::SCWMssOS::.o microblaze_0/lib/pvr.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/xbram_g.o microblaze_0/lib/x
+TRACE::2022-09-17.15:45:21::SCWMssOS::il_testio.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/
+TRACE::2022-09-17.15:45:21::SCWMssOS::inbyte.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/microblaze_flush_cache_ext.o microb
+TRACE::2022-09-17.15:45:21::SCWMssOS::laze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/xtmrctr_options.o micr
+TRACE::2022-09-17.15:45:21::SCWMssOS::oblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_disable_exceptions.o microblaze_0/lib/xuar
+TRACE::2022-09-17.15:45:21::SCWMssOS::tlite_l.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_init_icache_range.o microbla
+TRACE::2022-09-17.15:45:21::SCWMssOS::ze_0/lib/fcntl.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xemaclite_selftest.o microblaz
+TRACE::2022-09-17.15:45:21::SCWMssOS::e_0/lib/xintc.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/xemaclite_sinit.o microblaze_0/lib/microblaze_enab
+TRACE::2022-09-17.15:45:21::SCWMssOS::le_interrupts.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xil_assert.o microblaze_0/lib/_exit.o microblaze_0/lib/microbl
+TRACE::2022-09-17.15:45:21::SCWMssOS::aze_flush_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xbram.o microbla
+TRACE::2022-09-17.15:45:21::SCWMssOS::ze_0/lib/xil_exception.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Finished building libraries
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Copying to export directory.
+TRACE::2022-09-17.15:45:21::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-09-17.15:45:21::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-09-17.15:45:21::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-09-17.15:45:21::SCWSystem::Completed Processing the sysconfig microblaze-ethernet
+LOG::2022-09-17.15:45:21::SCWPlatform::Completed generating the artifacts for system configuration microblaze-ethernet
+TRACE::2022-09-17.15:45:21::SCWPlatform::Started preparing the platform 
+TRACE::2022-09-17.15:45:21::SCWSystem::Writing the bif file for system config microblaze-ethernet
+TRACE::2022-09-17.15:45:21::SCWSystem::dir created 
+TRACE::2022-09-17.15:45:21::SCWSystem::Writing the bif 
+TRACE::2022-09-17.15:45:21::SCWPlatform::Started writing the spfm file 
+TRACE::2022-09-17.15:45:21::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-09-17.15:45:21::SCWPlatform::Completed generating the platform
+TRACE::2022-09-17.15:45:21::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-17.15:45:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-17.15:45:21::SCWMssOS::Commit changes completed.
+TRACE::2022-09-17.15:45:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:21::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:21::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:21::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:21::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"dd51760e61e6863c3c45a2a643b263dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.5"],
+					"libOptions":	{
+						"lwip211":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-09-17.15:45:21::SCWPlatform::updated the xpfm file.
+TRACE::2022-09-17.15:45:21::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-17.15:45:21::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-17.15:45:21::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-17.15:45:21::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_1
+TRACE::2022-09-17.15:45:21::SCWPlatform::Opened existing hwdb top_wrapper_1
+TRACE::2022-09-17.15:45:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-17.15:45:21::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-17.15:45:21::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-17.15:45:21::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened new HwDB with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWReader::Active system found as  microblaze-ethernet
+TRACE::2022-09-24.21:03:23::SCWReader::Handling sysconfig microblaze-ethernet
+TRACE::2022-09-24.21:03:23::SCWDomain::checking for install qemu data   : 
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-09-24.21:03:23::SCWMssOS::No sw design opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::mss exists loading the mss file  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::Opened the sw design from mss  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::Adding the swdes entry /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-09-24.21:03:23::SCWMssOS::updating the scw layer about changes
+TRACE::2022-09-24.21:03:23::SCWMssOS::Opened the sw design.  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS:: library already available in sw design:  lwip211:1.5
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-24.21:03:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-24.21:03:23::SCWMssOS::Commit changes completed.
+TRACE::2022-09-24.21:03:23::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-09-24.21:03:23::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWReader::No isolation master present  
+LOG::2022-09-24.21:03:23::SCWPlatform::Started generating the artifacts platform microblaze-ethernet
+TRACE::2022-09-24.21:03:23::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-09-24.21:03:23::SCWPlatform::Started generating the artifacts for system configuration microblaze-ethernet
+LOG::2022-09-24.21:03:23::SCWSystem::Checking the domain standalone_domain
+LOG::2022-09-24.21:03:23::SCWSystem::Not a boot domain 
+LOG::2022-09-24.21:03:23::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-09-24.21:03:23::SCWDomain::Generating domain artifcats
+TRACE::2022-09-24.21:03:23::SCWMssOS::Generating standalone artifcats
+TRACE::2022-09-24.21:03:23::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-24.21:03:23::SCWMssOS::Mss edits present, copying mssfile into export location /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-09-24.21:03:23::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-09-24.21:03:23::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-09-24.21:03:23::SCWMssOS::doing bsp build ... 
+TRACE::2022-09-24.21:03:23::SCWMssOS::System Command Ran  cd  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2022-09-24.21:03:23::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.21:03:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.21:03:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.21:03:23::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.21:03:23::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-09-24.21:03:23::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-09-24.21:03:23::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-24.21:03:23::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-24.21:03:23::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-09-24.21:03:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-09-24.21:03:23::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.21:03:23::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.21:03:23::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.21:03:23::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.21:03:23::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.21:03:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.21:03:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.21:03:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.21:03:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Compiling lwip src and adapter files
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.21:03:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.21:03:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.21:03:23::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.21:03:23::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-09-24.21:03:23::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-09-24.21:03:23::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-24.21:03:23::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-24.21:03:23::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-09-24.21:03:23::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-09-24.21:03:23::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.21:03:23::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.21:03:23::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.21:03:23::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.21:03:23::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.21:03:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.21:03:23::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-09-24.21:03:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-09-24.21:03:23::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-09-24.21:03:23::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-09-24.21:03:23::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-24.21:03:23::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-24.21:03:23::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-09-24.21:03:23::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-09-24.21:03:23::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.21:03:23::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.21:03:23::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.21:03:23::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.21:03:23::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-09-24.21:03:23::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-09-24.21:03:23::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xil_exception.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o m
+TRACE::2022-09-24.21:03:23::SCWMssOS::icroblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_init_dcache_ran
+TRACE::2022-09-24.21:03:23::SCWMssOS::ge.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/microblaze_enable_dcache.o microblaz
+TRACE::2022-09-24.21:03:23::SCWMssOS::e_0/lib/xtmrctr_g.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xemaclite.o microbl
+TRACE::2022-09-24.21:03:23::SCWMssOS::aze_0/lib/microblaze_selftest.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/x
+TRACE::2022-09-24.21:03:23::SCWMssOS::il_util.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/hw
+TRACE::2022-09-24.21:03:23::SCWMssOS::_exception_handler.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_update_
+TRACE::2022-09-24.21:03:23::SCWMssOS::icache.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microbl
+TRACE::2022-09-24.21:03:23::SCWMssOS::aze_invalidate_dcache_range.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xintc_g.o microbl
+TRACE::2022-09-24.21:03:23::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaz
+TRACE::2022-09-24.21:03:23::SCWMssOS::e_flush_cache_ext_range.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_scrub.o
+TRACE::2022-09-24.21:03:23::SCWMssOS:: microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_disable_icache.o mi
+TRACE::2022-09-24.21:03:23::SCWMssOS::croblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_interrupts.
+TRACE::2022-09-24.21:03:23::SCWMssOS::o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/xbra
+TRACE::2022-09-24.21:03:23::SCWMssOS::m_g.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil_misc_psreset
+TRACE::2022-09-24.21:03:23::SCWMssOS::_api.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/microblaze_
+TRACE::2022-09-24.21:03:23::SCWMssOS::flush_cache_ext.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/li
+TRACE::2022-09-24.21:03:23::SCWMssOS::b/xtmrctr_options.o microblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_disable_exceptions
+TRACE::2022-09-24.21:03:23::SCWMssOS::.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_init
+TRACE::2022-09-24.21:03:23::SCWMssOS::_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xbram_intr.o mi
+TRACE::2022-09-24.21:03:23::SCWMssOS::croblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xemaclite_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/microblaze_ena
+TRACE::2022-09-24.21:03:23::SCWMssOS::ble_icache.o microblaze_0/lib/xemaclite_sinit.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xtmrctr_intr.o
+TRACE::2022-09-24.21:03:23::SCWMssOS:: microblaze_0/lib/xil_assert.o microblaze_0/lib/_exit.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xemaclite_l
+TRACE::2022-09-24.21:03:23::SCWMssOS::.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xbram.o microblaze_0/lib/pvr.o
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Finished building libraries
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Copying to export directory.
+TRACE::2022-09-24.21:03:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-09-24.21:03:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-09-24.21:03:23::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-09-24.21:03:23::SCWSystem::Completed Processing the sysconfig microblaze-ethernet
+LOG::2022-09-24.21:03:23::SCWPlatform::Completed generating the artifacts for system configuration microblaze-ethernet
+TRACE::2022-09-24.21:03:23::SCWPlatform::Started preparing the platform 
+TRACE::2022-09-24.21:03:23::SCWSystem::Writing the bif file for system config microblaze-ethernet
+TRACE::2022-09-24.21:03:23::SCWSystem::dir created 
+TRACE::2022-09-24.21:03:23::SCWSystem::Writing the bif 
+TRACE::2022-09-24.21:03:23::SCWPlatform::Started writing the spfm file 
+TRACE::2022-09-24.21:03:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-09-24.21:03:23::SCWPlatform::Completed generating the platform
+TRACE::2022-09-24.21:03:23::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-24.21:03:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-24.21:03:23::SCWMssOS::Commit changes completed.
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"dd51760e61e6863c3c45a2a643b263dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.5"],
+					"libOptions":	{
+						"lwip211":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-09-24.21:03:23::SCWPlatform::updated the xpfm file.
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.21:03:23::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.21:03:23::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.21:03:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.21:03:23::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.21:03:23::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.21:03:23::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2022-09-24.22:42:46::SCWPlatform::Started generating the artifacts platform microblaze-ethernet
+TRACE::2022-09-24.22:42:46::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-09-24.22:42:46::SCWPlatform::Started generating the artifacts for system configuration microblaze-ethernet
+LOG::2022-09-24.22:42:46::SCWSystem::Checking the domain standalone_domain
+LOG::2022-09-24.22:42:46::SCWSystem::Not a boot domain 
+LOG::2022-09-24.22:42:46::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-09-24.22:42:46::SCWDomain::Generating domain artifcats
+TRACE::2022-09-24.22:42:46::SCWMssOS::Generating standalone artifcats
+TRACE::2022-09-24.22:42:46::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-09-24.22:42:46::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:46::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:46::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:46::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.22:42:46::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:46::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.22:42:46::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.22:42:46::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.22:42:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.22:42:46::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:46::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:46::SCWMssOS::Completed writing the mss file at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp
+TRACE::2022-09-24.22:42:46::SCWMssOS::Mss edits present, copying mssfile into export location /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:46::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-09-24.22:42:46::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-09-24.22:42:46::SCWDomain::Building the domain :  standalone_domain
+TRACE::2022-09-24.22:42:46::SCWMssOS::doing bsp build ... 
+TRACE::2022-09-24.22:42:46::SCWMssOS::System Command Ran  cd  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2022-09-24.22:42:46::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.22:42:46::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.22:42:46::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.22:42:46::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.22:42:46::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-09-24.22:42:46::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-09-24.22:42:46::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-24.22:42:46::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-24.22:42:46::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-09-24.22:42:46::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-09-24.22:42:46::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.22:42:46::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.22:42:46::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.22:42:46::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.22:42:46::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.22:42:46::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.22:42:46::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::Running Make libs in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-24.22:42:46::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.22:42:46::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.22:42:46::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:47::SCWMssOS::Compiling lwip src and adapter files
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.22:42:49::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.22:42:49::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.22:42:49::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.22:42:49::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/lwip211_v1_5/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2022-09-24.22:42:49::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2022-09-24.22:42:49::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-24.22:42:49::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-24.22:42:49::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-09-24.22:42:49::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-09-24.22:42:49::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.22:42:49::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.22:42:49::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-09-24.22:42:49::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-09-24.22:42:49::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-09-24.22:42:49::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-09-24.22:42:49::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_13/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-09-24.22:42:49::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-09-24.22:42:49::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/intc_v3_13/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-09-24.22:42:49::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-09-24.22:42:49::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/tmrctr_v4_8/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_5/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2022-09-24.22:42:49::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2022-09-24.22:42:49::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-09-24.22:42:49::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-09-24.22:42:49::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/emaclite_v4_6/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.22:42:49::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.22:42:49::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_6/src
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2022-09-24.22:42:49::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2022-09-24.22:42:49::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-09-24.22:42:49::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-09-24.22:42:49::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xil_exception.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o m
+TRACE::2022-09-24.22:42:49::SCWMssOS::icroblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_init_dcache_ran
+TRACE::2022-09-24.22:42:49::SCWMssOS::ge.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/microblaze_enable_dcache.o microblaz
+TRACE::2022-09-24.22:42:49::SCWMssOS::e_0/lib/xtmrctr_g.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xemaclite.o microbl
+TRACE::2022-09-24.22:42:49::SCWMssOS::aze_0/lib/microblaze_selftest.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/x
+TRACE::2022-09-24.22:42:49::SCWMssOS::il_util.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/hw
+TRACE::2022-09-24.22:42:49::SCWMssOS::_exception_handler.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_update_
+TRACE::2022-09-24.22:42:49::SCWMssOS::icache.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microbl
+TRACE::2022-09-24.22:42:49::SCWMssOS::aze_invalidate_dcache_range.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xintc_g.o microbl
+TRACE::2022-09-24.22:42:49::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaz
+TRACE::2022-09-24.22:42:49::SCWMssOS::e_flush_cache_ext_range.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_scrub.o
+TRACE::2022-09-24.22:42:49::SCWMssOS:: microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_disable_icache.o mi
+TRACE::2022-09-24.22:42:49::SCWMssOS::croblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_interrupts.
+TRACE::2022-09-24.22:42:49::SCWMssOS::o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/xbra
+TRACE::2022-09-24.22:42:49::SCWMssOS::m_g.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil_misc_psreset
+TRACE::2022-09-24.22:42:49::SCWMssOS::_api.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/microblaze_
+TRACE::2022-09-24.22:42:49::SCWMssOS::flush_cache_ext.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/li
+TRACE::2022-09-24.22:42:49::SCWMssOS::b/xtmrctr_options.o microblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_disable_exceptions
+TRACE::2022-09-24.22:42:49::SCWMssOS::.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_init
+TRACE::2022-09-24.22:42:49::SCWMssOS::_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xbram_intr.o mi
+TRACE::2022-09-24.22:42:49::SCWMssOS::croblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xemaclite_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/microblaze_ena
+TRACE::2022-09-24.22:42:49::SCWMssOS::ble_icache.o microblaze_0/lib/xemaclite_sinit.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xtmrctr_intr.o
+TRACE::2022-09-24.22:42:49::SCWMssOS:: microblaze_0/lib/xil_assert.o microblaze_0/lib/_exit.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xemaclite_l
+TRACE::2022-09-24.22:42:49::SCWMssOS::.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xbram.o microblaze_0/lib/pvr.o
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Finished building libraries
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Copying to export directory.
+TRACE::2022-09-24.22:42:49::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-09-24.22:42:49::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-09-24.22:42:49::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-09-24.22:42:49::SCWSystem::Completed Processing the sysconfig microblaze-ethernet
+LOG::2022-09-24.22:42:49::SCWPlatform::Completed generating the artifacts for system configuration microblaze-ethernet
+TRACE::2022-09-24.22:42:49::SCWPlatform::Started preparing the platform 
+TRACE::2022-09-24.22:42:49::SCWSystem::Writing the bif file for system config microblaze-ethernet
+TRACE::2022-09-24.22:42:49::SCWSystem::dir created 
+TRACE::2022-09-24.22:42:49::SCWSystem::Writing the bif 
+TRACE::2022-09-24.22:42:49::SCWPlatform::Started writing the spfm file 
+TRACE::2022-09-24.22:42:49::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-09-24.22:42:49::SCWPlatform::Completed generating the platform
+TRACE::2022-09-24.22:42:49::SCWMssOS::Saving the mss changes /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-09-24.22:42:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-09-24.22:42:49::SCWMssOS::Commit changes completed.
+TRACE::2022-09-24.22:42:49::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.22:42:49::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.22:42:49::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.22:42:49::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.22:42:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.22:42:49::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:49::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:49::SCWWriter::formatted JSON is {
+	"platformName":	"microblaze-ethernet",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"microblaze-ethernet",
+	"platHandOff":	"/home/eliquinox/code/fpga/microblaze-ethernet/top_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"microblaze-ethernet",
+	"systems":	[{
+			"systemName":	"microblaze-ethernet",
+			"systemDesc":	"microblaze-ethernet",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"microblaze-ethernet",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.5",
+					"mssFile":	"",
+					"md5Digest":	"dd51760e61e6863c3c45a2a643b263dc",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.5"],
+					"libOptions":	{
+						"lwip211":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-09-24.22:42:49::SCWPlatform::updated the xpfm file.
+TRACE::2022-09-24.22:42:49::SCWPlatform::Trying to open the hw design at /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform::DSA given /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform::DSA absoulate path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform::DSA directory /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw
+TRACE::2022-09-24.22:42:49::SCWPlatform:: Platform Path /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/hw/top_wrapper.xsa
+TRACE::2022-09-24.22:42:49::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-09-24.22:42:49::SCWPlatform::Trying to set the existing hwdb with name top_wrapper
+TRACE::2022-09-24.22:42:49::SCWPlatform::Opened existing hwdb top_wrapper
+TRACE::2022-09-24.22:42:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-09-24.22:42:49::SCWMssOS::Checking the sw design at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-09-24.22:42:49::SCWMssOS::DEBUG:  swdes dump  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-09-24.22:42:49::SCWMssOS::Sw design exists and opened at  /home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/microblaze_0/standalone_domain/bsp/system.mss
