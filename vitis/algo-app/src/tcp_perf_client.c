@@ -2,7 +2,7 @@
 #include "tcp_perf_client.h"
 
 static struct tcp_pcb *c_pcb;
-static char logon[] = {0x38, 0x3d, 0x46, 0x49, 0x58, 0x2e, 0x34}; // 8=FIX.4.4
+static char logon[] = "8=FIX.4.4^9=102^35=A^49=BuySide^56=SellSide^34=1^52=20190605-11:40:30.392^98=0^108=30^141=Y^553=Username^554=Password^10=104^";
 static char send_buf[TCP_SEND_BUFSIZE];
 static int client_connected = FALSE;
 static int logon_sent = FALSE;
@@ -71,7 +71,7 @@ static err_t tcp_send_buffer(void)
 
 	while (tcp_sndbuf(c_pcb) > TCP_SEND_BUFSIZE) 
 	{
-		err = tcp_write(c_pcb, logon, 9, apiflags);
+		err = tcp_write(c_pcb, logon, strlen(logon), apiflags);
 		if (err != ERR_OK) {
 			xil_printf("TCP client: Error on tcp_write: %d\r\n",
 					err);
