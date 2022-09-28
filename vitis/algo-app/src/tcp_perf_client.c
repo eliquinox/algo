@@ -83,6 +83,8 @@ static err_t tcp_send_buffer(void)
 			xil_printf("TCP client: Error on tcp_output: %d\r\n", err);
 			return err;
 		}
+
+		break;
 	}
 	
 	return ERR_OK;

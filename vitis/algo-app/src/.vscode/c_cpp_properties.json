@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/eliquinox/code/fpga/Vitis-2021/microblaze-ethernet/**"
+                "/home/eliquinox/code/lob-software/algo/vitis/microblaze-ethernet/microblaze_0/standalone_domain/bsp/microblaze_0/include"
             ],
             "defines": [],
             "compilerPath": "/home/eliquinox/Xilinx-2021/Vitis/2021.1/gnu/microblaze/lin/bin/mb-gcc",
