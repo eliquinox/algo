@@ -1,3 +1,10 @@
 .metadata/**
 vitis/.metadata/**
 vitis/IDE.log
+RemoteSystensTempFiles
+.analytics
+IDE.log
+RemoteSystemsTempFiles/.project
+vitis/microblaze-ethernet/logs/platform.log
+vitis/RemoteSystemsTempFiles/.project
+vitis/microblaze-ethernet/.log/microblaze-ethernet_.build.ui.log
