@@ -2,7 +2,7 @@
 #include "tcp_perf_client.h"
 
 static struct tcp_pcb *c_pcb;
-static char logon[] = "8=FIX.4.4^9=102^35=A^49=BuySide^56=SellSide^34=1^52=20190605-11:40:30.392^98=0^108=30^141=Y^553=Username^554=Password^10=104^";
+static char logon[] = "8=FIX.4.4\0019=102\00135=A\00149=BuySide\00156=SellSide\00134=1\00152=20190605-11:40:30.392\00198=0\001108=30\001141=Y\001553=Username\001554=Password\00110=104\001";
 static char send_buf[TCP_SEND_BUFSIZE];
 static int client_connected = FALSE;
 static int logon_sent = FALSE;
