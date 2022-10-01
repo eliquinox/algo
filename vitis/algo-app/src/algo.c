@@ -2,10 +2,14 @@
 #include "algo.h"
 
 static struct tcp_pcb *c_pcb;
+
 // FIXME: sending time 
 static char logon[] = "8=FIX.4.4\0019=93\00135=A\00149=trader\00156=exchange\00134=1\00152=20221001-12:29:18.923\00198=0\001108=30\001553=trader\001554=password\00110=112\001";
+static char new_order_single[] = "8=FIX.4.4\0019=106\00135=D\00134=3\00149=trader\00156=exchange\00152=20221001-21:49:10.748\00111=limitBid\00155=BTCUSD\00140=2\00154=1\00144=10000.51\00138=1\00110=198\001";
+
 static int client_connected = FALSE;
-static int logon_sent = FALSE;
+static int logon_received = FALSE;
+static int nos_sent = FALSE;
 
 
 void print_app_header()
@@ -51,7 +55,7 @@ static void tcp_client_err(void *arg, err_t err)
 	xil_printf("TCP connection aborted\n\r");
 }
 
-static err_t tcp_send_buffer(void)
+static err_t send_logon(void)
 {
 	err_t err;
 	u8_t apiflags = TCP_WRITE_FLAG_COPY | TCP_WRITE_FLAG_MORE;
@@ -88,6 +92,47 @@ static err_t tcp_send_buffer(void)
 	return ERR_OK;
 }
 
+
+static err_t send_nos(void)
+{
+	err_t err;
+	u8_t apiflags = TCP_WRITE_FLAG_COPY | TCP_WRITE_FLAG_MORE;
+
+	if (c_pcb == NULL) {
+		return ERR_CONN;
+	}
+
+#ifdef __MICROBLAZE__
+	/* Zero-copy pbufs is used to get maximum performance for Microblaze.
+	 * For Zynq A9, ZynqMP A53 and R5 zero-copy pbufs does not give
+	 * significant improvement hense not used. */
+	apiflags = 0;
+#endif
+
+
+	while (tcp_sndbuf(c_pcb) > TCP_SEND_BUFSIZE) 
+	{
+		err = tcp_write(c_pcb, new_order_single, strlen(new_order_single), apiflags);
+		if (err != ERR_OK) {
+			xil_printf("TCP client: Error on tcp_write: %d\r\n", err);
+			return err;
+		}
+
+		err = tcp_output(c_pcb);
+		if (err != ERR_OK) {
+			xil_printf("TCP client: Error on tcp_output: %d\r\n", err);
+			return err;
+		}
+
+		break;
+	}
+	
+	return ERR_OK;
+}
+
+
+
+
 /** TCP sent callback */
 static err_t tcp_client_sent(void *arg, struct tcp_pcb *tpcb, u16_t len)
 {
@@ -99,6 +144,7 @@ static err_t tcp_client_sent(void *arg, struct tcp_pcb *tpcb, u16_t len)
 static err_t tcp_client_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
 {
 	xil_printf("In tcp_client_recv(): %s\n\r", p -> payload);
+	logon_received = TRUE;
 	return ERR_OK;
 }
 
@@ -130,10 +176,19 @@ static err_t tcp_client_connected(void *arg, struct tcp_pcb *tpcb, err_t err)
 
 void do_work()
 {
-	if (client_connected && !logon_sent)
+	if (client_connected && !logon_received)
 	{
-		tcp_send_buffer();
-		logon_sent = TRUE;
+		xil_printf("About to send logon\r\n");
+		send_logon();
+		return;
+	}
+	
+	if (logon_received && !nos_sent)
+	{
+		xil_printf("About to send NOS\r\n");
+		send_nos();
+		nos_sent = TRUE;
+		return;
 	}
 }
 
