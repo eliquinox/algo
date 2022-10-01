@@ -2,11 +2,11 @@
 #include "algo.h"
 
 static struct tcp_pcb *c_pcb;
-static char logon[] = "8=FIX.4.4\0019=102\00135=A\00149=BuySide\00156=SellSide\00134=1\00152=20190605-11:40:30.392\00198=0\001108=30\001141=Y\001553=Username\001554=Password\00110=104\001";
+// FIXME: sending time 
+static char logon[] = "8=FIX.4.4\0019=93\00135=A\00149=trader\00156=exchange\00134=1\00152=20221001-12:29:18.923\00198=0\001108=30\001553=trader\001554=password\00110=112\001";
 static char send_buf[TCP_SEND_BUFSIZE];
 static int client_connected = FALSE;
 static int logon_sent = FALSE;
-
 
 
 void print_app_header()
@@ -97,6 +97,13 @@ static err_t tcp_client_sent(void *arg, struct tcp_pcb *tpcb, u16_t len)
 	return ERR_OK;
 }
 
+/** TCP sent callback */
+static err_t tcp_client_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
+{
+	xil_printf("In tcp_client_recv(): %s\n\r", p -> payload);
+	return ERR_OK;
+}
+
 /** TCP connected callback (active connection), send data now */
 static err_t tcp_client_connected(void *arg, struct tcp_pcb *tpcb, err_t err)
 {
@@ -117,6 +124,7 @@ static err_t tcp_client_connected(void *arg, struct tcp_pcb *tpcb, err_t err)
 	/* set callback values & functions */
 	tcp_arg(c_pcb, NULL);
 	tcp_sent(c_pcb, tcp_client_sent);
+	tcp_recv(c_pcb, tcp_client_recv);
 	tcp_err(c_pcb, tcp_client_err);
 
 	return ERR_OK;
