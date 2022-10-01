@@ -4,7 +4,6 @@
 static struct tcp_pcb *c_pcb;
 // FIXME: sending time 
 static char logon[] = "8=FIX.4.4\0019=93\00135=A\00149=trader\00156=exchange\00134=1\00152=20221001-12:29:18.923\00198=0\001108=30\001553=trader\001554=password\00110=112\001";
-static char send_buf[TCP_SEND_BUFSIZE];
 static int client_connected = FALSE;
 static int logon_sent = FALSE;
 
@@ -73,8 +72,7 @@ static err_t tcp_send_buffer(void)
 	{
 		err = tcp_write(c_pcb, logon, strlen(logon), apiflags);
 		if (err != ERR_OK) {
-			xil_printf("TCP client: Error on tcp_write: %d\r\n",
-					err);
+			xil_printf("TCP client: Error on tcp_write: %d\r\n", err);
 			return err;
 		}
 
@@ -97,7 +95,7 @@ static err_t tcp_client_sent(void *arg, struct tcp_pcb *tpcb, u16_t len)
 	return ERR_OK;
 }
 
-/** TCP sent callback */
+/** TCP received callback */
 static err_t tcp_client_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
 {
 	xil_printf("In tcp_client_recv(): %s\n\r", p -> payload);
@@ -144,7 +142,6 @@ void start_application(void)
 	err_t err;
 	struct tcp_pcb* pcb;
 	ip_addr_t remote_addr;
-	u32_t i;
 
 	err = inet_aton(TCP_SERVER_IP_ADDRESS, &remote_addr);
 
@@ -166,9 +163,6 @@ void start_application(void)
 		tcp_client_close(pcb);
 		return;
 	}
-	
-	for (i = 0; i < TCP_SEND_BUFSIZE; i++)
-		send_buf[i] = (i % 10) + '0';
 
 	return;
 }
